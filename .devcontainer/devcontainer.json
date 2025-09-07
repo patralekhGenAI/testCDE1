@@ -1,0 +1,27 @@
+{
+  "name": "testCDE1 dev",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "20" },
+    "ghcr.io/devcontainers/features/go:1": { "version": "1.22" }
+  },
+  "forwardPorts": [5173, 8080],
+  "portsAttributes": {
+    "5173": { "label": "Vite (React)" },
+    "8080": { "label": "Go API" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "golang.go",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "remoteUser": "vscode"
+}
+
