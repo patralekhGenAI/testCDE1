@@ -1,0 +1,15 @@
+# Node
+client/node_modules
+client/dist
+
+# Go
+server/bin
+server/tmp
+
+# OS/editor
+.DS_Store
+
+# Env files (never commit secrets)
+.env
+*.env
+
